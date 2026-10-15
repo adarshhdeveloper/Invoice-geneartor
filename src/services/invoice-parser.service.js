@@ -57,5 +57,5 @@ export const parseInvoiceText = (text) => {
     taxAmount,
     grandTotal,
     currency: currency ? currency.toUpperCase() : null,
-  };
+  };  
 };
